@@ -1,0 +1,12 @@
+.app{
+    display: flex;
+   
+}
+
+.content{
+    width: 100%;
+}
+
+.footer{
+    margin-top: 550px;
+}
