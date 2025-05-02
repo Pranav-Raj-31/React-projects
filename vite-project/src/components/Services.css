@@ -1,0 +1,249 @@
+.services {
+    padding: 2rem;
+  }
+  .services,h2{
+    text-align: center;
+   padding-bottom: 30px;
+    
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin-top: 1rem;
+  }
+  
+  .helpbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  .helpbtn:hover{
+    background-color: rgb(28, 27, 27);
+  }
+  .helpbtn a{
+    color: white;
+    text-decoration: none;
+    font-size:1vw;
+  }
+  .image-content{
+    height: 700px;
+    margin: 3vw 0vw;
+    width: 100%;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x:hidden;
+  }
+.image-contenar{
+  padding-top: 20px;
+  height:100%;
+  width:100%;
+  display:inline-block;
+  animation-name:anim ;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear;
+}
+
+@keyframes anim {
+  from{
+      transform:translateX(0);
+  }
+  to{
+      transform: translateX(-200%);
+  }
+}
+
+.image-contenar img{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+} 
+
+.solution{
+  height: 500px;
+  width: 100%;
+  margin-top: 4vw;
+}
+.solution img{
+  height:80%;
+  width: 65%;
+  object-fit: cover;
+  padding-top: 2vw;
+}
+.solution h1{
+  font-size: 3vw;
+  padding-top: 3vw;
+  color:#4e4a4ab0
+}
+
+.scroll{
+  height: 35vh;
+  width: 100%;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x:hidden;
+  border-bottom: 4px solid rgb(14, 4, 152);
+}
+.scroll-container{
+  height: 100%;
+  width: 110%;
+  display:inline-block;
+  padding: 2vw;
+  animation-name: anim;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.scroll-container img{
+  height: 95%;
+  border-radius: 50%;
+  width: 13%;
+  margin:1vw 2.1vw;
+  object-fit: cover;
+  object-position:30% 30%;
+
+}
+
+@keyframes anim {
+  from{
+      transform:translateX(0);
+  }
+  to{
+      transform: translateX(-100%);
+  }
+  
+}
+.findtherapist{
+  padding: 1vw;
+  text-align: left;
+}
+.findtherapist h2{
+  font-size: 2vw;
+  padding: 1vw;
+  color: rgb(50, 52, 51);
+  text-align: left;
+  text-transform: uppercase;
+}
+.book{
+  height: 1400px;
+  width: 100%;
+  margin-top:2vw ;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows:450px 450px 450px;
+  
+}
+
+.book-content{
+ border: 2px solid black;
+ background-color: rgb(26, 117, 159);
+
+  margin: 1vw 1.5vw;
+  padding:1vw;
+}
+.book-content:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+}
+.content-info{
+  height:85%;
+  width: 100%;
+}
+.content-info img{
+  height: 40%;
+  width: 42%;
+  border-radius: 50%;
+  border:1px solid white;
+  object-fit: cover;
+}
+.content-info h2{
+  height: 8%;
+  font-size: 1.4vw ;
+  color:azure;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+.work{
+  height: 6%;
+  color:azure;
+  font-family:sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+.info{
+  margin-top: 1vw;
+  text-align: left;
+  color:whitesmoke;
+}
+.content-info h6{
+  height: 10%;
+  font-size: .9vw ;
+  color:azure;
+  text-align: center;
+  text-align: left;
+  font-weight: 100;
+  padding-top: .5vw;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+.content-last{
+  height:15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.availabale{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.round{
+  height: 13px;
+  background-color: rgb(2, 131, 39);
+  width: 13px;
+  border-radius: 50%;
+}
+.availabale h5{
+  color: aliceblue;
+  text-transform: uppercase;
+  padding-left: .8vw;
+}
+.bookbtn{
+  height: 60%;
+  border-radius: 10%;
+  background-color: #007bff;
+  color: aliceblue;
+  padding: .5vw;
+  margin-right: 1vw;
+}
+.bookbtn:hover{
+      background-color: rgb(56, 51, 51); 
+}
+.bookbtn a{
+  color: white;
+  text-decoration: none;
+  font-size:1vw;
+}

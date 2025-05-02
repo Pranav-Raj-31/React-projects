@@ -1,0 +1,104 @@
+.overthink{
+    background-color:rgba(121, 134, 137, 0.813) ;
+}
+.signs{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+}
+.signs img{
+        height: 100%;
+        width:50%;
+        object-fit: fill;
+
+}
+.signs-text{
+    height: 100%;
+    width: 50%;
+    padding: 2vw;
+}
+.signs-text h2{
+    font-size: 2vw;
+    color: rgb(26, 24, 24);
+    text-align: left;
+    padding-left:8vw ;
+}
+.signs-text ol{
+    padding-left: 10vw;
+    line-height: 2vw;
+}
+
+.managing{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+}
+.managing img{
+        height: 100%;
+        width:50%;
+        object-fit: fill;
+
+}
+.managing-text{
+    height: 100%;
+    width: 50%;
+    padding: 2vw;
+}
+.managing-text h2{
+    font-size: 2vw;
+    color: rgb(26, 24, 24);
+    text-align: left;
+    padding-left:8vw ;
+}
+.managing-text ol{
+    padding-left: 10vw;
+    line-height: 2vw;
+}
+
+.sucide{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw;
+}
+.sucide img{
+        height: 100%;
+        width:50%;
+        object-fit: fill;
+
+}
+.sucide-text{
+    height: 100%;
+    width: 50%;
+    padding: 2vw;
+}
+.sucide-text h2{
+    font-size: 2vw;
+    color: rgb(26, 24, 24);
+    text-align: left;
+    padding-left:8vw ;
+}
+.sucide-text ol{
+    padding-left: 10vw;
+    line-height: 2vw;
+}
+.help{
+    height: 100px;
+}
+.help h2{
+    font-size: 2.3vw;
+    color:rgb(67, 62, 62);
+    height: 3vw;
+}
+.help ul{
+    text-align: center;
+    padding-bottom: 1vw;
+}
